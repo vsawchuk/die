@@ -13,8 +13,8 @@ class TestDie < MiniTest::Unit::TestCase
 
   def test_roll
     @die = Die.new
-    assert_operator @die.value, :>, 0
-    assert_operator @die.value, :<, 7
+    assert_operator @die.roll, :>, 0
+    assert_operator @die.roll, :<, 7
   end
 
 end
