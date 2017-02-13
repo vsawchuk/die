@@ -6,6 +6,7 @@ Rake::TestTask.new do |t|
   t.test_files = FileList['specs/*_spec.rb']
 end
 
+# Only used to run the assert tests
 task :assert_test do |t2|
   ruby 'tests/die_test.rb'
 end
