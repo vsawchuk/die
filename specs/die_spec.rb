@@ -12,7 +12,7 @@ describe "Testing Die Class" do
   end
 
   it "rolls a number >= 1 and less than 7" do
-    num = die.value
+    num = die.roll
     expect(num).must_be :>, 0
     expect(num).must_be :<, 7
   end
