@@ -2,7 +2,7 @@
 
 require 'minitest/autorun'
 require 'minitest/reporters'
-require_relative '../die'
+require_relative '../lib/die'
 
 describe "Testing Die Class" do
   let(:die) {Die.new}
